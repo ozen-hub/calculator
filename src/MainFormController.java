@@ -60,7 +60,6 @@ public class MainFormController {
     }
 
     private void setNumber(int number){
-        // txtInput.setText(number+"");
-        txtInput.setText(txtInput.getText()+String.valueOf(number));
+        txtInput.setText(txtInput.getText()+number);
     }
 }
